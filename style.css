@@ -1,5 +1,6 @@
 * {
     font-family:'Roboto',sans-serif;
+    box-sizing: border-box;
 }
 
 .header,.top,.footer {
@@ -41,4 +42,37 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+
+.header {
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.top, .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding: 30px 200px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

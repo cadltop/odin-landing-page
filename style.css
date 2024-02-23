@@ -6,7 +6,7 @@
     background-color: #1f2937;
 }
 
-.top .card .leff-side .title {
+.top .card .left-side .title {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
@@ -39,6 +39,6 @@ button {
 
 .quote .text {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color: #1f2937;
 }

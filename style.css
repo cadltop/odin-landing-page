@@ -1,0 +1,44 @@
+* {
+    font-family:'Roboto',sans-serif;
+}
+
+.header,.top,.footer {
+    background-color: #1f2937;
+}
+
+.top .card .leff-side .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.top .card .left-side .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.middle1 .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.middle2 {
+    background-color: #e5e7eb;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}

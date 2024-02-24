@@ -1,6 +1,5 @@
-* {
+body {
     font-family:'Roboto',sans-serif;
-    box-sizing: border-box;
 }
 
 .header,.top,.footer {
@@ -44,6 +43,14 @@ button {
     color: #1f2937;
 }
 
+/* fixing page*/
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .header {
     padding: 20px 200px;
     display: flex;
@@ -58,15 +65,49 @@ a {
 }
 
 .content {
+    min-height: 100vh;
     display: flex;
-    flex: 1;
     flex-direction: column;
 }
 
-.top, .card {
+.top, .middle1, .middle2, .bottom {
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
+}
+
+.top {
+    padding: 48px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.left-side {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sign-up {
+    font-weight: bold;
+    font-size: 14px;
+    color: #e5e7eb;
+    width: 110px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.top-image {
+    height: auto;
+    width: 450px;
 }
 
 .footer {

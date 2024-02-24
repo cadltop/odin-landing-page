@@ -160,6 +160,31 @@ a {
     align-self: flex-end;
 }
 
+.bottom {
+    padding: 64px;
+}
+
+.bottom .card {
+    background-color: #3882f6;
+    width: 950px;
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    border-radius: 10px;
+}
+.bottom .card .left-side {
+    color: #e5e7eb;
+}
+.bottom .card .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottom .card .sign-up {
+    border-color: #e5e7eb;
+}
+
 .footer {
     padding: 30px 200px;
     color: #f9faf8;

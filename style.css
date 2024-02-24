@@ -142,6 +142,24 @@ a {
     text-align: center;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 72px 0;
+    margin: 32px 0;
+}
+
+.quote .text {
+    width: 800px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
 .footer {
     padding: 30px 200px;
     color: #f9faf8;
